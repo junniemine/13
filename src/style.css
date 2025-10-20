@@ -1,0 +1,14 @@
+html,
+body {
+    overflow: hidden;
+    margin: 0px;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+}
+#number{
+    text-decoration: none;
+}
+#mainmenu{
+     text-decoration: none;
+}

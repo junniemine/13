@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Title</title>
+</head>
+<style>
+    #container{
+        position: relative;
+
+justify-content: center;
+ align-items: center;
+ display: flex;
+        overflow: hidden;
+        width: 80px;
+        height: 300px;
+        top: 20%;
+        left: 45%;
+        background-color: grey;
+        border-radius: 10px;
+        transition: opacity 0.3s ease;
+    }
+ #container-fill {
+     bottom: 0; 
+    left: 0;
+        width: 100%;
+        height: 0%;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        transition: transform 0.3s ease;
+ }
+ body{
+    background-color: rgb(233, 232, 232);
+     z-index: 2;
+ }
+ #emoji{
+    bottom: 150px;
+    left: 248px;
+      position: absolute;
+      z-index: 1;
+      font-size: 50px;
+
+ }
+
+</style>
+<body>
+    <div id = "container">
+        <div id="container-fill"></div></div>
+        <div id="emoji">📢</div>
+    <a href="index.html" id = "mainmenu" style = "position: absolute; top: 80vh; left: 38vh;">메인화면</a>
+    <script type="module" src="/src/9.js"></script>
+</body>
+
+</html>

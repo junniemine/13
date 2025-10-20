@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Title</title>
+</head>
+<style>
+    #dragbox{
+        position: absolute;
+        font-size: 50px;
+        top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        
+    }
+    body{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #mag{
+        font-size: 100px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+
+</style>
+<body>
+    <div id = "container">
+   <div id = "dragbox">📎</div>
+  <div id = "mag">🧲</div>
+    <a href="index.html" style = "position: absolute; top: 70vh; left: 29vh;">메인화면</a>
+    </div>
+    <script type="module" src="/src/13.js"></script>
+</body>
+
+</html>
