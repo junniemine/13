@@ -15,6 +15,6 @@ box.ontouchmove = (e) => {
     box.style.transform = `scale(1.5) rotate(${rotation}deg)`
 }
 
-box.ontouched = (e) => {
+box.ontouchend = (e) => {
     box.style.transform = 'scale(1) rotate(0deg)'
 }};
